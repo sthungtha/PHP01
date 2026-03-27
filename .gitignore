@@ -1,0 +1,42 @@
+﻿# === PHP Cache & Temp Files ===
+*.bak
+*.tmp
+*.log
+*.cache
+*.swp
+
+# === Composer ===
+vendor/
+composer.lock
+
+# === Environment Files ===
+.env
+.env.*
+
+# === IDE / Editor Files ===
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === PHPStorm / JetBrains ===
+*.iml
+.phpstorm.meta.php
+
+# === Node / Frontend (if used) ===
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# === XAMPP / Local Server Artifacts ===
+xampp/
+htdocs/error_log
+
+# === Project-specific ===
+/Project_*/uploads/
+/Project_*/cache/
+/Project_*/logs/
