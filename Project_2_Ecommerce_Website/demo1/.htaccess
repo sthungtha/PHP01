@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /PHP01/Projects/Project_2_Ecommerce_Website/demo1/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]

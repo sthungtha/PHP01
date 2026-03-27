@@ -1,0 +1,2 @@
+﻿.card { transition: transform 0.2s; } .card:hover { transform: scale(1.03); }
+mark { background-color: #fff3cd; padding: 2px 4px; }

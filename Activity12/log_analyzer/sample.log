@@ -1,0 +1,8 @@
+[2023-10-25 08:15:32] [INFO] [System] Application started successfully.
+[2023-10-25 08:16:05] [WARNING] [Auth] Failed login attempt for user 'admin'.
+[2023-10-25 09:30:12] [ERROR] [Database] Connection timeout while executing query.
+[2023-10-26 11:45:00] [INFO] [System] Scheduled maintenance started.
+[2023-10-26 11:50:22] [ERROR] [Database] Query syntax error near 'SELECT * FRO'.
+[2023-10-27 14:20:11] [DEBUG] [API] Incoming request payload: {"id": 123}.
+[2023-10-27 15:05:44] [CRITICAL] [Server] Memory usage exceeded 95%.
+[2023-10-28 09:00:00] [INFO] [System] Daily backup completed.

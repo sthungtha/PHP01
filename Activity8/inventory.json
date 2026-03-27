@@ -1,0 +1,27 @@
+{
+    "Apple": {
+        "quantity": 200,
+        "price": 0.0926510094425921,
+        "sold": 120
+    },
+    "Banana": {
+        "quantity": 170,
+        "price": 0.09414317882700003,
+        "sold": 90
+    },
+    "Orange": {
+        "quantity": 100,
+        "price": 0.0900567811781995,
+        "sold": 60
+    },
+    "Mango": {
+        "quantity": 75,
+        "price": 0.09571973169224704,
+        "sold": 40
+    },
+    "Grape": {
+        "quantity": 80,
+        "price": 0.11629947400608022,
+        "sold": 70
+    }
+}

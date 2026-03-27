@@ -1,0 +1,10 @@
+﻿<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /PHP01/Projects/Project_1_Simple_Blog_System/demo5/
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php [QSA,L]
+</IfModule>
+Header set X-Content-Type-Options nosniff
+Header set X-Frame-Options DENY
+Header set X-XSS-Protection "1; mode=block"
